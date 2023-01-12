@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fc01469.css",
+    "main.js": "/static/js/main.b05a423c.js",
+    "static/media/mccarty-dylan-min.jpg": "/static/media/mccarty-dylan-min.dc3c35458ede11cf74c4.jpg",
+    "index.html": "/index.html",
+    "main.3fc01469.css.map": "/static/css/main.3fc01469.css.map",
+    "main.b05a423c.js.map": "/static/js/main.b05a423c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fc01469.css",
+    "static/js/main.b05a423c.js"
+  ]
+}
