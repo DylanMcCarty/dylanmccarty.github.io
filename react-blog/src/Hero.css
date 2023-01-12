@@ -1,0 +1,17 @@
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero {
+    z-index: -1;
+    height: 100%;
+    background-color: #243B55; 
+    background-image: url(../public/images/mccarty-dylan-min.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p {
+    color: white;
+}
