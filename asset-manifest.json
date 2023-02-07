@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c88bcb55.css",
-    "main.js": "/static/js/main.cabe4c1d.js",
+    "main.js": "/static/js/main.808ba1c5.js",
     "static/media/Me.png": "/static/media/Me.cca9ecfc02e6523c7023.png",
+    "static/media/Housero.png": "/static/media/Housero.acbb692294185a5d3cca.png",
     "static/media/weatherapp.png": "/static/media/weatherapp.4a2c6fc94e09e7468e9a.png",
     "static/media/tictactoe.PNG": "/static/media/tictactoe.607ec2d265f05d7e0d85.PNG",
     "index.html": "/index.html",
     "main.c88bcb55.css.map": "/static/css/main.c88bcb55.css.map",
-    "main.cabe4c1d.js.map": "/static/js/main.cabe4c1d.js.map"
+    "main.808ba1c5.js.map": "/static/js/main.808ba1c5.js.map"
   },
   "entrypoints": [
     "static/css/main.c88bcb55.css",
-    "static/js/main.cabe4c1d.js"
+    "static/js/main.808ba1c5.js"
   ]
 }
