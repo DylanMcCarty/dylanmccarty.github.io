@@ -1,26 +1,25 @@
 import React from "react";
 import "./Hero.css";
+import Me from './images/Me.png'
+import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <div className="container-fluid vh-100 hero">
-      <div className="row h-75 align-content-center">
-        <div className="container h1 text-left p-5">
+    <div id="hero" className="container-fluid vh-100">
+      <div className="row vh-100 d-flex align-items-center">
+        <div id="hero-text" className="col text-center d-flex flex-column h-25">
           <p>
             Hi, my name is <strong>Dylan!</strong>
           </p>
           <p>I'm a Full-Stack Web Developer</p>
         </div>
-        <div className="container h3 text-left p-5" style={{ height: 100 }}>
-          <div className="row h-100 align-content-center">
-            <p>learn more about what I can do for you!</p>
-          </div>
-          <button className="btn btn-outline-secondary mt-5">About Me</button>
+        <div className="col-12 col-lg-6 text-center ">
+          <img className="shadow-lg" id='me' alt="" src={Me}></img>
         </div>
       </div>
-      <div className="container fixed-bottom">
+      <div id="scroll" className="container fixed-bottom">
         <div className="row text-center align-items-end">
-          <p>scroll to learn more</p>
+          <p className="mb-3">scroll to learn more <br/> <BsFillArrowDownCircleFill className="icon" /></p>
         </div>
       </div>
     </div>
