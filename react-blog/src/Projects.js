@@ -3,6 +3,7 @@ import './Projects.css'
 import weatherapp from './images/weatherapp.png'
 import tictactoe from './images/tictactoe.PNG'
 import housero from './images/Housero.png'
+import restaurant from './images/react-restaurant.jpg'
 
 export default function Projects() {
   return (
@@ -54,7 +55,7 @@ export default function Projects() {
             </div>
             <div className='col mb-5'>
                 <div id='project-card' className="card border mt-5 mx-auto" >
-                    <img className='card-img-top' alt='' src={housero}></img>
+                    <img className='card-img-top' alt='' src={restaurant}></img>
                     <div className="card-body">
                         <div className='container g-0'>
                             <div className='row g-0'>
