@@ -13,7 +13,7 @@ export default function Hero() {
           </p>
           <p>I'm a Full-Stack Web Developer</p>
         </div>
-        <div className="col-12 col-lg-6 text-center ">
+        <div id="img" className="col-12 col-lg-6 text-center ">
           <img className="shadow-lg" id='me' alt="" src={Me}></img>
         </div>
       </div>
