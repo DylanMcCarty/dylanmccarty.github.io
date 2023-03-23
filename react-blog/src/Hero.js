@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div id="hero" className="container-fluid vh-100">
       <div className="row vh-100 d-flex align-items-center">
-        <div id="hero-text" className="col text-center d-flex flex-column h-25">
+        <div id="hero-text" className="col text-center d-flex flex-column h-25 mt-5">
           <p>
             Hi, my name is <strong>Dylan!</strong>
           </p>

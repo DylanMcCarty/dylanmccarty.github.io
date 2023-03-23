@@ -8,3 +8,7 @@
 body {
     background-color: #2b2d2f;
 }
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}

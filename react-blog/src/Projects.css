@@ -4,14 +4,9 @@
     height: auto;
 }
 
-
-
-/* #project-section {
-} */
-
 #project-card {
     height: 500px;
-    width: 21rem;
+    width: 22rem;
     display: block;
     top: 0px;
     position: relative;

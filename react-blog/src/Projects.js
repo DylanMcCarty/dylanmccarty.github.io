@@ -6,11 +6,11 @@ import housero from './images/Housero.png'
 
 export default function Projects() {
   return (
-    <div id='projects' className='container'>
+    <div id='projects' className='container-fluid'>
         <hr className=' text-white mt-5'/>
         <h6 className='text-white'>My Projects</h6>
         <div className='row justify-content-center'>
-            <div className='col justify-text-center'>
+            <div className='col mb-5'>
                 <div id='project-card' className="card border mt-5 mx-auto" >
                     <img className='card-img-top' alt='' src={weatherapp}></img>
                     <div className="card-body justify-contents-end">
@@ -24,7 +24,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            <div className='col'>
+            <div className='col mb-5'>
                 <div id='project-card' className="card border mt-5 mx-auto" >
                     <img className='card-img-top' alt='' src={tictactoe}></img>
                     <div className="card-body">
@@ -38,7 +38,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            <div className='col'>
+            <div className='col mb-5'>
                 <div id='project-card' className="card border mt-5 mx-auto" >
                     <img className='card-img-top' alt='' src={housero}></img>
                     <div className="card-body">
@@ -47,6 +47,20 @@ export default function Projects() {
                                 <h5 className="card-title">Housero</h5>
                                 <p className="card-text text-black">Final project of the bootcamp, which had the goal of using web scraping technology to create my own api that gathered data on housing to streamline data for Rental Property Investors</p>
                                 <a href="https://housero.web.app/home" className="btn btn-primary">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='col mb-5'>
+                <div id='project-card' className="card border mt-5 mx-auto" >
+                    <img className='card-img-top' alt='' src={housero}></img>
+                    <div className="card-body">
+                        <div className='container g-0'>
+                            <div className='row g-0'>
+                                <h5 className="card-title">React Restaurant</h5>
+                                <p className="card-text text-black">A restaurant website built for the sake of learning react and learning to create an easily maintainable codebase that will adapt to any changes in the api and dynamically generate new content</p>
+                                <a href="https://dylanmccarty.github.io/react-restaurant" className="btn btn-primary">Demo</a>
                             </div>
                         </div>
                     </div>
