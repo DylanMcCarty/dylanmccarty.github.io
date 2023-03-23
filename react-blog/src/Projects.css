@@ -1,21 +1,24 @@
-#background {
-    background-color: #2C5364;
+#projects {
+    /* background-color: #2C5364; */
+    background-color: #2b2d2f;
     height: auto;
 }
+
+
 
 /* #project-section {
 } */
 
 #project-card {
     height: 500px;
-    width: 24rem;
+    width: 21rem;
     display: block;
     top: 0px;
     position: relative;
     /* background-color: #f2f8f9; */
     border-radius: 13%;
     padding: 32px 24px;
-    margin: 12px;
+    /* margin: 12px; */
     text-decoration: none;
     z-index: 0;
     overflow: hidden;

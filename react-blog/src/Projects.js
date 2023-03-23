@@ -6,12 +6,12 @@ import housero from './images/Housero.png'
 
 export default function Projects() {
   return (
-    <div id='projects' className='container vh-100'>
-        <hr className='mt-5'/>
-        <h6>My Projects</h6>
+    <div id='projects' className='container'>
+        <hr className=' text-white mt-5'/>
+        <h6 className='text-white'>My Projects</h6>
         <div className='row justify-content-center'>
-            <div className='col justify-content-center'>
-                <div id='project-card' className="card border mt-5" >
+            <div className='col justify-text-center'>
+                <div id='project-card' className="card border mt-5 mx-auto" >
                     <img className='card-img-top' alt='' src={weatherapp}></img>
                     <div className="card-body justify-contents-end">
                         <div className='container g-0'>
@@ -25,7 +25,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className='col'>
-                <div id='project-card' className="card border mt-5" >
+                <div id='project-card' className="card border mt-5 mx-auto" >
                     <img className='card-img-top' alt='' src={tictactoe}></img>
                     <div className="card-body">
                         <div className='container g-0'>
@@ -39,7 +39,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className='col'>
-                <div id='project-card' className="card border mt-5" >
+                <div id='project-card' className="card border mt-5 mx-auto" >
                     <img className='card-img-top' alt='' src={housero}></img>
                     <div className="card-body">
                         <div className='container g-0'>

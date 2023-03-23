@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Me from './images/Me.png'
+import Me from './images/Mewithbg.jpg'
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 export default function Hero() {

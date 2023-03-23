@@ -4,7 +4,7 @@ import mehiking from './images/mehiking.jpeg'
 
 export default function AboutMe() {
   return (
-    <div id='background' className='container-fluid shadow-lg bg-white vh-100'>
+    <div id='background' className='container-fluid shadow-lg vh-100'>
       <div id='aboutme' className='container h-100'>
           <div className='row justify-content-between align-content-center d-flex h-100'>
           <h1 className=''>About Me</h1>

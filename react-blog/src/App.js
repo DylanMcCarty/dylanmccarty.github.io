@@ -8,7 +8,7 @@ export default function App() {
     <div>
         <Hero />
         <Projects />
-        <AboutMe />
+        {/* <AboutMe /> */}
     </div>
   )
 }
