@@ -1,10 +1,14 @@
 
-#background {
+#aboutme {
     height: 600px;
+    background-color: #2b2d2f;
 }
 
 #imgofme {
-    height: 700px;
+    height: 24rem;
     width: auto;
 }
 
+h1 {
+    color: white
+}
