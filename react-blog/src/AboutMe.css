@@ -1,14 +1,56 @@
 
 #aboutme {
-    height: 600px;
-    background-color: #2b2d2f;
+    height: auto;
+    background-color: #3f3f3f;
 }
 
 #imgofme {
-    height: 24rem;
+    height: 28rem;
     width: auto;
 }
 
 h1 {
     color: white
 }
+
+#imgofme {
+    height: 20rem;
+  }
+  @media (min-width: 576px) {
+    #imgofme {
+        height: 30rem;
+    }
+  }
+  @media (min-width: 768px) {
+    #imgofme {
+        height: 30rem;
+    }
+  }
+  @media (min-width: 992px) {
+    #imgofme {
+        height: 30rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    #imgofme {
+        height: 30rem;
+    }
+  }
+  @media (min-width: 1400px) {
+    #imgofme {
+      height: 34rem;
+    }
+  }
+
+#contactme {
+    display: block;
+}
+    @media (max-width: 992px) {
+        #contactme {
+            display: none;
+        }
+    }
+
+.navbar-nav .nav-link {
+    font-size: 50px;
+    }
