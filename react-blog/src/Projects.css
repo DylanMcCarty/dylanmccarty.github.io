@@ -6,7 +6,7 @@
 
 #project-card {
     height: 500px;
-    width: 21rem;
+    width: 20rem;
     display: block;
     top: 0px;
     position: relative;
@@ -18,6 +18,16 @@
     z-index: 0;
     overflow: hidden;
     border: 1px solid #f2f8f9;
+}
+@media (min-width: 576px) {
+    #project-card {
+        width: 22drem;
+    }
+}
+@media (min-width: 992px) {
+    #project-card {
+        width: 24rem;
+    }
 }
   
 #project-card:hover {

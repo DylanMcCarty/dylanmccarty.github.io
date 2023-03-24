@@ -4,6 +4,7 @@ import weatherapp from './images/weatherapp.png'
 import tictactoe from './images/tictactoe.PNG'
 import housero from './images/Housero.png'
 import restaurant from './images/react-restaurant.jpg'
+import alarmclock from './images/alarm-clock.jpg'
 
 export default function Projects() {
   return (
@@ -69,13 +70,13 @@ export default function Projects() {
             </div>
             <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-5'>
                 <div id='project-card' className="card border mt-5 mx-auto" >
-                    <img className='card-img-top' alt='' src={restaurant}></img>
+                    <img className='card-img-top' alt='' src={alarmclock}></img>
                     <div className="card-body">
                         <div className='container g-0'>
                             <div className='row g-0'>
-                                <h5 className="card-title">React Restaurant</h5>
-                                <p className="card-text text-black">A restaurant website built for the sake of learning react and learning to create an easily maintainable codebase that will adapt to any changes in the api and dynamically generate new content</p>
-                                <a href="https://dylanmccarty.github.io/react-restaurant" className="btn btn-primary">Demo</a>
+                                <h5 className="card-title">Alarm Clock</h5>
+                                <p className="card-text text-black">An Alarm Clock, which was a logic heavy project in the beginning of the bootcamp, it was the final project of our onboarding before moving to in person bootcamp</p>
+                                <a href="https://dylanmccarty.github.io/Alarm-Clock" className="btn btn-primary">Demo</a>
                             </div>
                         </div>
                     </div>
