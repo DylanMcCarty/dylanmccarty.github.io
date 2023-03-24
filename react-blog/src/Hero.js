@@ -4,6 +4,7 @@ import Me from './images/Mewithbg.jpg'
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 export default function Hero() {
+
   return (
     <div id="hero" className="container-fluid vh-100">
       <div className="row vh-100 d-flex align-items-center">
