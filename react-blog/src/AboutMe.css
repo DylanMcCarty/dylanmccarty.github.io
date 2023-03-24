@@ -13,6 +13,16 @@ h1 {
     color: white
 }
 
+#aboutme {
+  height: 100%;
+}
+@media (max-width: 576px) {
+  #aboutme {
+    height: auto;
+  }
+}
+
+
 #imgofme {
     height: 20rem;
   }
@@ -28,7 +38,7 @@ h1 {
   }
   @media (min-width: 992px) {
     #imgofme {
-        height: 30rem;
+        height: 26rem;
     }
   }
   @media (min-width: 1200px) {
@@ -52,5 +62,15 @@ h1 {
     }
 
 .navbar-nav .nav-link {
-    font-size: 50px;
+  font-size: 50px;
+}
+
+#contactmemobile {
+  display: none;
+}
+@media (max-width: 992px) {
+    #contactmemobile {
+        display: block;
+        background-color: #2b2d2f;
     }
+}
