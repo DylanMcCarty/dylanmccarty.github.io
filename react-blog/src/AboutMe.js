@@ -25,10 +25,10 @@ export default function AboutMe() {
                 <p id="aboutmetext" className="h4">
                   I'm Dylan McCarty, I graduated highschool in 2020 during covid
                   and found during quarantine that I have a passion for solving
-                  all sorts of problems and thats what led me to take the web
+                  all sorts of problems! Thats what led me to take the web
                   developer bootcamp after realizing I enjoy technology and
                   wanted to follow my passion for developing and finding and
-                  solving problems in the world of software, backend and servers
+                  solving problems in the world of software. Backend and servers
                   are a huge interest to me, but I enjoy building and problem
                   solving on the frontend as well. I use technologies such as
                   React, Python, Javascript, Django and Postgresql.
